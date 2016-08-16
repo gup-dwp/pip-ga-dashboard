@@ -50,13 +50,13 @@ nunjucks.ready(function(nj) {
   Object.keys(filters).forEach(function(filterName) {
     nj.addFilter(filterName, filters[filterName]);
   });
- 
-// The second argument can be any function that renders markdown 
+
+// The second argument can be any function that renders markdown
 
 	// nj.addFilter('__setglobal__', function(v, k) {
 	// 	nj.addGlobal(k, v);
 	// });
-  
+
 });
 
 // Middleware to serve static assets
