@@ -60,7 +60,8 @@ $(function(){
 
     var data = google.visualization.arrayToDataTable(chartData),
         options = {
-          colors: ['#93D0CB','#2B88C8','#96C4E4','#FFBF47','#28A197']
+          colors: ['#93D0CB','#2B88C8','#96C4E4','#FFBF47','#28A197'],
+          height : 250
         },
         chart = new google.visualization.PieChart(document.getElementById('device-usage-chart'));
 
